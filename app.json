@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "sharefare",
+    "slug": "sharefare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ShareFareLogo.png",
+    "userInterfaceStyle": "light",
+
+    "splash": {
+      "image": "./assets/shareFareLatestSplashScreenLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6f54fb"
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ShareFareLogo.png",
+        "backgroundColor": "#6f54fb"
+
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.saadalibutt28.sharefare"
+
+    },
+
+    
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "06b6082e-92d7-4c65-ad89-f35360266958"
+      }
+    },
+
+    "plugins": [
+      "@react-native-firebase/app"
+    
+    ]
+   
+
+  },
+  "name": "sharefare"
+}
